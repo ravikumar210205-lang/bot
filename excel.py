@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from datetime import timezone
+import openpyxl # Required for hyperlink styling
 
 def export_to_excel(data, filename='reels_output.xlsx'):
     """
@@ -49,6 +50,25 @@ def export_to_excel(data, filename='reels_output.xlsx'):
         # Export to Excel using openpyxl engine
         with pd.ExcelWriter(filename, engine='openpyxl') as writer:
             final_df.to_excel(writer, index=False)
+
+            # Get the openpyxl workbook and worksheet
+            workbook = writer.book
+            worksheet = writer.sheets["Sheet1"]  # Default sheet name for pandas export
+
+            # Find the column index for 'Reel URL'
+            reel_url_col_idx = -1
+            for col_idx, cell in enumerate(worksheet[1]):  # Iterate through header row (row 1)
+                if cell.value == 'Reel URL':
+                    reel_url_col_idx = col_idx + 1  # openpyxl is 1-indexed
+                    break
+
+            if reel_url_col_idx != -1:
+                # Apply hyperlinks to the 'Reel URL' column
+                for row_idx in range(2, worksheet.max_row + 1):  # Start from row 2 (data rows)
+                    cell = worksheet.cell(row=row_idx, column=reel_url_col_idx)
+                    if cell.value and cell.value.startswith('http'):
+                        cell.hyperlink = cell.value
+                        cell.style = "Hyperlink"  # Apply Excel's built-in hyperlink style
         
         print(f"Successfully exported {len(final_df)} reels to {filename} in strict serial order.")
         return True
