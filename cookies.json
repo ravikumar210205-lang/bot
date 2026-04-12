@@ -1,7 +1,7 @@
 [
 {
     "domain": ".instagram.com",
-    "expirationDate": 1810491607.69171,
+    "expirationDate": 1810581456.105238,
     "hostOnly": false,
     "httpOnly": false,
     "name": "csrftoken",
@@ -10,12 +10,12 @@
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "Un8TgtT8jLiQ4HTVswLWH9016Zr5nU6b",
+    "value": "qkLf51cmOWNA4orE7JwIYWMC9Yu5wF7I",
     "id": 1
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1792593508.928002,
+    "expirationDate": 1809438778.957694,
     "hostOnly": false,
     "httpOnly": true,
     "name": "datr",
@@ -24,12 +24,12 @@
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "ZHbJaCkb2BLE0AfpnaCh-YYi",
+    "value": "OoDKaXIM0RF6KX_i0mPh0edP",
     "id": 2
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1783707607.691984,
+    "expirationDate": 1783797456.105489,
     "hostOnly": false,
     "httpOnly": false,
     "name": "ds_user_id",
@@ -38,40 +38,26 @@
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "35145377669",
+    "value": "33222274408",
     "id": 3
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1789571397.522421,
+    "expirationDate": 1806414778.957705,
     "hostOnly": false,
     "httpOnly": true,
     "name": "ig_did",
     "path": "/",
-    "sameSite": "unspecified",
+    "sameSite": "no_restriction",
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "C6BA74B7-A163-4E02-8457-242573F5AD1F",
+    "value": "1BF37491-BE65-45FA-91B6-005FD1318312",
     "id": 4
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1789569626.898838,
-    "hostOnly": false,
-    "httpOnly": false,
-    "name": "ig_nrcb",
-    "path": "/",
-    "sameSite": "unspecified",
-    "secure": true,
-    "session": false,
-    "storeId": "0",
-    "value": "1",
-    "id": 5
-},
-{
-    "domain": ".instagram.com",
-    "expirationDate": 1807347787.847518,
+    "expirationDate": 1809438778.957715,
     "hostOnly": false,
     "httpOnly": true,
     "name": "mid",
@@ -80,12 +66,12 @@
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "aaqYSwAEAAF7USYP4Bh7N0raqpYB",
-    "id": 6
+    "value": "acqAOgAEAAFUpmmcwf8pRQCicFDM",
+    "id": 5
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1792651335.746144,
+    "expirationDate": 1809574060.992112,
     "hostOnly": false,
     "httpOnly": true,
     "name": "ps_l",
@@ -95,11 +81,11 @@
     "session": false,
     "storeId": "0",
     "value": "1",
-    "id": 7
+    "id": 6
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1792651335.746184,
+    "expirationDate": 1809574060.992256,
     "hostOnly": false,
     "httpOnly": true,
     "name": "ps_n",
@@ -109,7 +95,7 @@
     "session": false,
     "storeId": "0",
     "value": "1",
-    "id": 8
+    "id": 7
 },
 {
     "domain": ".instagram.com",
@@ -121,12 +107,12 @@
     "secure": true,
     "session": true,
     "storeId": "0",
-    "value": "\"MAZ\\05435145377669\\0541807467607:01fee30d53aef854f081f555435e7747e5b0b9b3f3fd5b4235e500889ecbcc240b98de61\"",
-    "id": 9
+    "value": "\"HIL\\05433222274408\\0541807557456:01fed3564d5898b49566e433de21ae68babd364cdeada33949e8d8c81a166e14e349ff06\"",
+    "id": 8
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1807282178.950145,
+    "expirationDate": 1807557455.279573,
     "hostOnly": false,
     "httpOnly": true,
     "name": "sessionid",
@@ -135,12 +121,12 @@
     "secure": true,
     "session": false,
     "storeId": "0",
-    "value": "35145377669%3ADSvJ5Ml4JLzAXB%3A5%3AAYixHY-1OI8Sgip1TV7WeCo2AA9KyVI2DO1ZxzO2nw",
-    "id": 10
+    "value": "33222274408%3AGqHlgK2n8wTpos%3A29%3AAYheYwVgnSvZlK_OzvfbbrtMXTgKD_lyEuCdjRs3IQ",
+    "id": 9
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1776536411,
+    "expirationDate": 1776615529,
     "hostOnly": false,
     "httpOnly": false,
     "name": "wd",
@@ -150,6 +136,6 @@
     "session": false,
     "storeId": "0",
     "value": "1710x985",
-    "id": 11
+    "id": 10
 }
 ]
