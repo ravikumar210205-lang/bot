@@ -154,7 +154,7 @@ class InstagramScraper:
             new_page = await self.context.new_page()
             try:
                 # Use fast loading for date fetching
-                await new_page.goto(reel_url, wait_until="domcontentloaded", timeout=20000)
+                await new_page.goto(reel_url, wait_until="domcontentloaded", timeout=40000)
                 # Small delay for JS to render the time element
                 await asyncio.sleep(1)
                 
