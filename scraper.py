@@ -1,7 +1,7 @@
 [
 {
     "domain": ".instagram.com",
-    "expirationDate": 1811054786.728657,
+    "expirationDate": 1811123167.571204,
     "hostOnly": false,
     "httpOnly": false,
     "name": "csrftoken",
@@ -29,7 +29,7 @@
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1784270786.728744,
+    "expirationDate": 1784339167.571265,
     "hostOnly": false,
     "httpOnly": false,
     "name": "ds_user_id",
@@ -107,7 +107,7 @@
     "secure": true,
     "session": true,
     "storeId": "0",
-    "value": "\"EAG\\05433222274408\\0541808030786:01fee3580f720e4137405e8b94804188cc1da577fad2cb7ee9ce899b2a28b9f10416280b\"",
+    "value": "\"EAG\\05433222274408\\0541808099167:01fe169b91e1c5bc8cb9b98afeb2eb59678f20ae1277341b68ea11c8b2e421466e0e3a02\"",
     "id": 8
 },
 {
@@ -126,7 +126,7 @@
 },
 {
     "domain": ".instagram.com",
-    "expirationDate": 1777099588,
+    "expirationDate": 1777167971,
     "hostOnly": false,
     "httpOnly": false,
     "name": "wd",
